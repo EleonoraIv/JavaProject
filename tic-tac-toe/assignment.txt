@@ -1,0 +1,11 @@
+The tic-tac-toe board consists of nine cells, created using new Cell[3][3]. To determine 
+which player’s turn it is, you can introduce a variable named whoseTurn of the char type. 
+whoseTurn is initially 'X', then changes to 'O', and subsequently changes between 'X' and 
+'O' whenever a new cell is occupied. When the game is over, set whoseTurn to ' '.
+How do you know whether the game is over, whether there is a winner, and who is the 
+winner, if any? You can define a method named isWon(char token) to check whether a 
+specified token has won and a method named isFull() to check whether all the cells are 
+occupied.
+Clearly, two classes emerge from the foregoing analysis. One is the Cell class, which 
+handles operations for a single cell; the other is the TicTacToe class, which plays the whole 
+game and deals with all the cells.
